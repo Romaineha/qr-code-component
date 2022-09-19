@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Outfit:wght@400;700&family=Ubuntu&display=swap');
+
+
+*{margin:0;
+box-sizing: border-box;
+}
+
+body{
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  font-family: Outfit;
+
+}
+
+.container{
+  width:320px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 19px;
+  box-shadow: 0 3px 15px rgba(0,0,0,0.2);
+}
+img{
+  max-width: 100%;
+  border-radius: 10px;
+  border-bottom-left-radius: 10px;
+  /* padding-bottom: 10px; */
+}
+.title{
+  text-align: center;
+  margin: 20px;
+  font-size: 1.1rem;
+  color: hsl(218, 44%, 22%);
+}
+.description{
+  font-size: 1rem;
+  color: hsl(220, 15%, 55%);
+  text-align: center;
+  margin: 20px;
+}
+@media (max-width:1440px)
